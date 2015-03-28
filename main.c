@@ -9,6 +9,7 @@ int main(){
 	
 	sourcefile.open("source.dat");
 	infile.open("infile.dat");
+	// Check open file error !
 	if(sourcefile.fail()) {
 		cout << "Error opending source file !";
 		return 0;
